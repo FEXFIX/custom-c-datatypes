@@ -1,5 +1,19 @@
-### Throughout this project I learn the low level details of certain datatypes
-### and try to recreate them in a custom way
-**NOTE: this is not anything useful and just for my personal educational purpose**
+# Custom C Datatypes
 
-### Started out with a custom int, inspired by N3loDevelopment, however I decided to keep mine a signed 32int
+Learning low-level C by reimplementing standard datatypes from scratch.
+
+## Implementations
+
+### myint32
+Custom signed 32-bit integer using bitshifts and unsigned long.
+
+### mystring
+Custom string library reimplementing standard `<string.h>` functions:
+- `my_strlen` — string length
+- `my_strcpy` / `my_strncpy` — string copy
+- `my_strcat` — string concatenation
+- `my_strcmp` — string comparison
+- `my_strdup` — string duplication (heap)
+
+---
+*Personal educational project — not production code.*
